@@ -1,0 +1,146 @@
+@media(max-width:850px){
+    #btn-comprar{
+        left: 70vw;
+    }
+    .productos-carrito{
+        gap: 10px;
+    }
+    .productos-carrito p{
+        font-size: 1rem;
+    }
+    .PrecioProducto{
+        font-size: 1.2rem;
+    }
+    .carrito{
+        font-size: 2.5rem;
+        top: 89vh ;
+    }
+    #contador{
+        font-size: 1rem;
+    }
+    .btn-eliminar{
+        font-size: 20px;
+        width: 30px;
+        height: 30px;
+    }
+}
+@media(max-width:500px){
+    .logo{
+        width: 70px;
+        height: 100px;
+    }
+    .carrito{
+        font-size: 1.5rem;
+        text-shadow: 0px 1px 5px #000;
+    }
+    #contador{
+        font-size: 0.8rem;
+    }
+    .PrecioProducto{
+        font-size: 1rem;
+    }
+    #btn-comprar{
+        left: 65vw;
+    }
+    #btn-comprar,#btn-vaciar{
+        font-size: 0.8rem;
+    }
+    .list li a{
+        font-size: 1.1rem;
+    }
+    #stock{
+        grid-template-columns: repeat(auto-fill,50vw);
+    }
+    .contenido{
+        height: 300px;
+        font-size: 0.9rem;
+    }
+    .contenido h3{
+        font-size: 1rem;
+    }
+    .contenido h4{
+        font-size: 1rem;
+    }
+    .contenido img{
+        width: 150px;
+    }
+    .formulario{
+        width: 90%;
+    }
+    .btn-enviar{
+        font-size: 0.9rem;
+    }
+    #equis{
+        top: 1vh;
+        font-size: 1.3rem;
+    }
+    .btn-restar,.btn-sumar{
+        width: 0.5rem;
+        height: 0.5rem;
+        font-size: 1rem;
+    }
+    .imagen-carrito{
+        width: 50px;
+    }
+    .btn-eliminar{
+        font-size: 10px;
+        width: 20px;
+        height: 20px;
+    }
+    #contenedor-carrito{
+        margin:auto 5vw;
+    }
+    #btn-vaciar{
+        left: 64vw;
+        font-size: 0.6rem;
+    }
+    #btn-comprar{
+        font-size: 0.6rem;
+        left: 42vw;
+    }
+    .PrecioProducto{
+        font-size: 0.8rem;
+    }
+    .footer{
+        font-size: 0.9rem;
+    }
+    .footer a{
+        font-size: 0.9rem;
+    }
+}
+@media (max-width: 420px){
+    #stock{
+        grid-template-columns:repeat(auto-fill,50vw);
+    }
+    .productos-carrito p{
+        font-size: 0.8rem;
+    }
+    .contenido{
+        height: 250px;
+    }
+    .contenido img{
+        width: 100px;
+    }
+}
+@media (max-width: 400px){
+    .list li a{
+        font-size: 1rem;
+    }
+    .imagen-carrito{
+        width: 40px;
+    }
+    .productos-carrito p{
+        font-size: 0.5rem;
+    }
+    .PrecioProducto{
+        font-size:0.8rem;
+    }
+    #btn-vaciar{
+        left: 64vw;
+        font-size: 0.5rem;
+    }
+    #btn-comprar{
+        font-size: 0.5rem;
+        left: 45vw;
+    }
+}

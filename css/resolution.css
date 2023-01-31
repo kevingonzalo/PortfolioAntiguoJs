@@ -1,0 +1,177 @@
+@media (max-width: 1200px){
+    #sobre-mi{
+        max-height: 10vh;
+    }
+    #about-me,#service,.section3,#section4{
+        width: 100%;
+        height: auto;
+    }
+        .cajas2{
+        grid-template-columns: repeat(autofill, minmax(70px,2fr));
+    }
+}
+@media (max-width:917px){
+    .cajas{
+          min-height: 50vh;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+    }
+    .titulo{
+        font-size:2.5rem;
+    }
+    
+    #about-me p, #about-me a{
+        font-size: 1.5rem;
+    }
+    .cajas2{
+          gap: 15px;
+    }
+    .box{
+        width: 100px;
+    }
+    .box img{
+        width: 100px;
+    }
+}
+@media (max-width: 832px) {
+    .cajas3{
+        margin: auto;
+         width: 100%;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+    .caja p{
+        font-size: 1rem;
+    }
+    #servicios, #proyectos {
+    height: 12vh;
+    }
+    #service{
+        min-height: 60vh;
+    } 
+    .bloque{
+        max-width:250px;
+        height: 130px;
+        margin: auto;
+    }
+    .bloque img{
+        width: 250px;
+        height: 130px;
+    }
+    .cajas3{
+        gap: 35px;
+    }
+    .bloque p a{
+        font-size: 1rem;
+    }
+    .section4-box{
+        grid-template-columns: repeat(1,2fr);
+    }
+}
+
+
+@media (max-width: 730px) {
+    .nav-bar{
+      justify-content: space-between;
+      padding: 0 25px;
+    }
+    .nav-bar ul.list{
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: #2f3640;
+        height: 100000%;
+        width:200px;
+        padding: 30px;
+        opacity: .9;
+        transform: translateX(-200px);
+        transition: .4s ease;
+    } 
+    .nav-bar ul.list.active{
+        transform: translateX(0px);
+        transition: 0.4s ease-in-out;
+    }
+    .nav-bar a:hover{
+        color: #fff;
+        border-bottom: 1px solid #fff;
+    }
+    .menu-btn{
+        display:block;
+    }
+    .presentacion h1 {
+    font-size: 4rem;
+    }
+.titulo{
+    font-size: 2rem;
+}
+.email a{
+    font-size: 1.5rem;
+}
+.contactos{
+    height: 150px;
+}
+.footer p{
+    font-size: .8rem;
+}
+}
+
+@media (max-width: 600px){
+    .btn{
+        font-size: 1rem;
+    }
+    .cajas2{
+         grid-template-columns: repeat(auto-fill, minmax(90px, 2fr)); 
+    }
+    .logo{
+       width: 3.5rem;
+       margin-top: 7px;
+       margin-left: 20px; 
+    }
+    .box {
+        width: 5rem;
+    }
+    .box img{
+        width: 5rem;
+    }
+}
+@media (max-width:450px){
+    .presentacion{
+        margin-top: 30px;
+    }
+    .presentacion h1{
+        font-size: 3.5rem;
+    }
+    .btn{
+        top: 75%;
+        font-size: 0.7rem;
+    }
+    .titulo{
+        font-size: 1.7rem;
+    }
+    .cajas2{
+        width: 100%;
+        grid-template-columns: repeat(auto-fill, minmax(80px, 2fr)); 
+    }
+    .subtitulo{
+        font-size: 1.2rem;
+        width: 90%;
+        margin: auto;
+    }
+    .email a{
+        font-size: 1rem;
+    }
+    .iconos a{
+        font-size: 2.5rem;
+    }
+    .footer p{
+        font-size: .5rem;
+    }
+}
+@media (max-width:389px){
+    .presentacion{
+        width: 95%;
+    }
+    .presentacion h1{
+        font-size: 3rem;
+    }
+}

@@ -1,0 +1,12 @@
+.movieCard{
+    list-style: none;
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+}
+.movieCard img{
+    width: 230px;
+    height: 345px;
+    border-radius: 10px;
+    background-color: azure;
+}

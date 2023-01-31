@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="" content="Kevin Balmaceda | PORTFOLIO">
+    <meta name="description" content="Pagina descriptiva de mis conocimiento en el desarrollo web.">
+    <meta name="author" content="kevinbalmaceda5@gmail.com">
+    <meta name="keywords" content="Portfolio, Kevin, Balmaceda, Designer, My Portfolio, Mi portafolio, Desarrollador,portafolio">
+    <meta name="google-site-verification" content="VFIoBukbxlXNN3cDw3_aaIGXvk0LbfAB1O9l7Ii6Wzg">
+    <!-- link -->
+    <title>Kevin Balmaceda | PORTFOLIO</title>
+    <link rel="icon" href="logos/logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/resolution.css">
+    <link rel="stylesheet" href="css/resumenHabilidades.css">
+    <!-- scrollreveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- fuentes de texto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
+<!-- icons font awesome -->
+    <script src="https://kit.fontawesome.com/ef4f249b56.js" crossorigin="anonymous"></script>
+    <link rel="mask-icon" href="img/logopag.png" color="#5bbad5">
+</head>
+<body>
+    <div class="menu-btn">
+        <i class="fas fa-bars fa-2x"></i>
+    </div>
+   <div class="container" id="container">
+        <header class="header">
+        <nav class="nav-bar">
+            <a href="index.html">
+                <img class="logo" src="img/logos/logo.png" title="logo-portfolio-kevin-balmaceda" alt="logo-portfolio-kevin-balmaceda">
+            </a>
+            <ul class="list">
+                <li class="list-element">
+                    <a class="list-element-item " href="index.html">Home</a>
+                </li>
+                <li class="list-element">
+                    <a class="list-element-item " href="#sobre-mi">Sobre mí</a>
+                </li>
+                <li class="list-element">
+                    <a class="list-element-item" href="#habilidades">Habilidades</a>
+                </li>
+                <li class="list-element">
+                    <a class="list-element-item " href="#proyectos">Proyectos</a>
+                </li>
+                <li class="list-element">
+                    <a class="list-element-item" href="#contactos">Contacto</a>
+                </li>
+            </ul>      
+        </nav> 
+       </header>
+
+
+        <section id="home">
+            <main class="main">
+                <img class="fondo" src="img/fondos/fondo.jpg" alt="">
+                <div class="presentacion">
+                    <h1>Kevin Balmaceda<br><span>Desarrollador Web </span>Front-End </h1>
+                </div>
+                <a href="cv/CV.pdf" download="CV.pdf" class="btn">Descargar CV</a>
+            </main>
+        </section>
+        
+        <div id="sobre-mi"></div>
+        <section id="about-me">
+                <h1 class="titulo">Sobre mí</h1>
+                <div class="descripcion">
+                    <p>Desarrollador web Front-End autodidacta desde hace 1 año y medio, Estudiante de 1er año de la carrera Lic en sistemas en la UNLP<a target="_blank" href="https://www.info.unlp.edu.ar/licenciatura-en-sistemas/">(UNIVERSIDAD NACIONAL DE LA PLATA)</a>. La mayor parte de mi conocimiento lo obtuve como Autodidacta con cursos gratuitos y de pago. </br>
+                    Dia a Dia estoy aprendiendo nuevas tecnologías, Inglés y mejorando lo aprendido, pretendo ser Desarrollador FullStack.</p>
+                </div>
+        </section>
+
+        <div class="full-skills" id="fullImg"> 
+            <div class="container-skills">    
+                <img src="" id="img-skills" alt="">
+                <p id="descripcion"></p>
+            </div>
+        </div>
+
+        <div id="habilidades"></div> 
+        <div class="section3">
+            <h1 class="titulo">Habilidades</h1>
+            <div class="cajas2">
+                    <div class="box">
+                        <img src="img/logos/HTML.png" title="HTML5" alt="logo de HTML para portfolio" onclick="description(this.src,'1 año y medio de experiencia con HTML manejando y conociendo todo sobre el lenguaje y su relación con CSS y javaScript.')">
+                    </div>
+                    <div class="box">
+                        <img src="img/logos/CSS.png" title="CSS3" alt="logo de CSS3 para portfolio" onclick="description(this.src,'Buen manejo de CSS Grid y Flexbox con diseños de calidad, responsivos y adaptables a todos los dispositivos.')">
+                    </div>
+                    <div class="box">
+                        <img src="img/logos/JS.png" title="JavaScript" alt="logo de javascript para portfolio" onclick="description(this.src,'Uso y Manejo del DOM, Consumo de Api Rest y dominio del las propiedad principales para la creación de cualquier Web.')">
+                    </div>
+                    <div class="box">
+                        <img src="img/logos/REACT.png" title="React" alt="logo de React para portfolio" onclick="description(this.src,'Aprendiendo la Libreria con cursos y proyectos Reales (E-commerce , Landing Page, Blogs, etc).')">
+                    </div>
+                    <div class="box">
+                        <img src="img/logos/Pcs6.png" title="Photoshop" alt="logo de Photoshop para portfolio" onclick="description(this.src,'Exelente manejo de Photoshop para el ajuste de resolución de imagenes, diseño y creación de logos, banners, modificación de plantillas entre otros muchos usos.')">
+                    </div>
+                    <div class="box">
+                        <img src="img/logos/GITHUB.png" title="GitHub" alt="logo de GitHub para portfolio" onclick="description(this.src,'Guardo todos mis proyectos en Repositorios para poder mostrar mi trabajo y lo aprendido.')">
+                    </div>
+                    <div class="box">
+                        <img src="img/logos/Bootstrap.png" title="Bootstrap" alt="logo de Bootstrap para portfolio" onclick="description(this.src,'Hago uso de esta biblioteca para el Ahorro de tiempo cuando tengo Proyectos Grandes y Complejos.')">
+                    </div>
+                     <!-- <div class="box">
+                        <img src="logos/GIT.png" title="Git" alt="logo de Git para portfolio" onclick="description(this.src,'Me encuentro Aprendiendo esta Tecnología por su Utilidad en trabajos en Equipo.')">
+                    </div> --> 
+                    <!-- <div class="box">
+                        <img src="logos/JAVA.png" title="JAVA" alt="logo de java para portfolio" onclick="description(this.src,'Manejo Basico de Java en POO por Ser el Lenguaje por Referencia Utilizado en la Universidad.')">
+                    </div> -->
+                    <!-- <div class="box">
+                        <img src="logos/Mysql.png" title="Mysql" alt="logo de Mysql para portfolio" onclick="description(this.src,this.alt)">
+                    </div> -->
+            </div>
+        </div>
+        <div id="proyectos"></div>
+        <section id="section4">
+                <h1 class="titulo">Proyectos</h1>
+                <div class="section4-box">
+                    <div class="section4-box-open">
+                        <h1 class="subtitulo">Paginas Creadas con HTML, CSS Y JavaScript.</h1>
+                        <a href="proyectosJS.html" target="_blank"><img src="img/ProyectosJS.png" alt="ProyectosJS html css y javaScript"></a>
+                    </div>
+                    <div class="section4-box-open">
+                        <h1 class="subtitulo">Paginas Creadas con ReactJs.</h1>
+                        <a href="proyectosReact.html" target="_blank"><img src="img/ProyectosReactJS.png" alt="ProyectosReactJS hechas con ReactJS"></a>
+                    </div>
+                </div>  
+        </section>
+
+
+        <div id="contactos"></div>
+        <section class="contact">
+            <div class="contactos">
+                 <h1 class="titulo">Contacto</h1>
+                    <div class="email">
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBnpqZnPJNMqHmlGgZwkhvjNvmMBXKMSthkkGKxDwzqDKvglQNrtnpFrpTfkPFQpcvKWJnG" class="logo-mail"  target="_blank"><i class="fas fa-envelope"></i></a>
+                        <a href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSBnpqZnPJNMqHmlGgZwkhvjNvmMBXKMSthkkGKxDwzqDKvglQNrtnpFrpTfkPFQpcvKWJnG"  class="mail" target="_blank">kevinbalmaceda5@gmail.com</a>
+                    </div>
+            </div>
+            <div class="redes">
+                <h1 class="titulo">Redes Sociales</h1>
+                <div class="iconos">
+                    <a href="https://github.com/kevingonzalo" target="_blank"><i class="fab fa-github-square"></i></a>
+                    <a href="https://www.linkedin.com/in/kevin-balmaceda-a0350b199/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+        </section>
+        <div class="footer">
+            <footer>
+                <p class="parrafo-footer">Creado 100% Por <a href="https://www.instagram.com/kevin_gonzaloxd/" target="_blank" >Kevin Balmaceda</a> | <i class="far fa-copyright"></i> 2022 Todos Los Derechos Reservados. </p>
+            </footer>
+        </div>
+    </div>
+    <script src="js/habilidades.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
